@@ -1,51 +1,44 @@
-//JSON file
-
 {
 "companyName" : "Weird Deals Inc.",
 "headOffice" : "Toronto, Canada",
 "established" : 2019,
 "active" : true,
-"top5Deals" : [
+"topFlavours" : [
   {
-    "item" : "Godzilla Garden Gnome",
-    "price" : 39.99,
-    "dealPrice" : 25.99,
-    "description" : "Let those pesky, roving neighborhood gnomes know where they're
-    not welcome. (A series of big-budget, narratively lackluster sequels not included.)",
-    "image" : "GodzillaGardenGnome.jpg"
+    "name" : "Monstrous Mint",
+    "calories" : 800,
+    "type" : "ice cream",
+    "ingredients" : [
+      "peppermint cream",
+      "dark chocolate chips",
+      "vanilla"
+    ],
+    "image": "chocolate-mint.svg"
   },
-  {
-    "item" : "Realistic dog pillow",
-    "price" : 25.99,
-    "dealPrice" : 15.99,
-    "description" : "Just because your building doesn't allow pets doesn't mean
-    you can't enjoy the company of a furry friend—albeit a not-so-animated one.",
-    "image" : "realistic-dog-pillow.jpg"
-  },
-  {
-    "item" : "Bean-squeezing stress reliever",
-    "price" : 9.99,
-    "dealPrice" : 5.99,
-    "description" : "Nothing quite relieves stress like popping a cute little
-    emoji-faced bean out of a pod—right?",
-    "image" : "BeanSqueezer.jpg"
-  },
-  {
-    "item" : "Banana Boat",
-    "price" : 39.99,
-    "dealPrice" : 25.99,
-    "description" : "Let those pesky, roving neighborhood gnomes know where they're
-    not welcome. (A series of big-budget, narratively lackluster sequels not included.)",
-    "image" : "GodzillaGardenGnome.jpg"
-  },
-  {
-    "item" : "Dog Helmate",
-    "price" : 39.99,
-    "dealPrice" : 25.99,
-    "description" : "Let those pesky, roving neighborhood gnomes know where they're
-    not welcome. (A series of big-budget, narratively lackluster sequels not included.)",
-    "image" : "GodzillaGardenGnome.jpg"
-  },
-]
 
+  {
+    "name" : "Perfect Peach Mango",
+    "calories" : 560,
+    "type" : "sorbet",
+    "ingredients" : [
+      "peach puree", "mango", "honey"
+    ],
+    "image" : "peach-mango.svg"
+  },
+
+  {
+    "name" : "Stupendous Strawberry",
+    "calories" : 1400,
+    "type" : "frozen yogurt",
+    "ingredients" : [
+      "strawberries",
+      "goats milk",
+      "wheat grass",
+      "chocolate",
+      "blue cheese",
+      "sprinkles"
+    ],
+    "image" : "strawberry-sprinkle.svg"
+    }
+  ]
 }
