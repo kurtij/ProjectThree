@@ -1,0 +1,44 @@
+//JSON file
+
+{
+"companyName" : "Weird Deals Inc.",
+"headOffice" : "Toronto, Canada",
+"established" : 2019,
+"active" : true,
+"top5Deals" : [
+  {
+    "item" : "Godzilla Garden Gnome",
+    "price" : 400,
+    "dealPrice" : "ice cream",
+    "ingredients" : [
+      "peppermint cream",
+      "chocolate",
+      "vamilla"
+    ],
+    "image" : "chocolate-mint.svg"
+  },
+  {
+    "name" : "Perfect Peach Mango",
+    "calories" : 248,
+    "type" : "sorbet",
+    "ingredients" : [
+      "peach puree",
+      "honey",
+      "mango"
+    ],
+    "image" : "peach-mango.svg"
+  },
+  {
+    "name" : "Carmel Swirl",
+    "calories" : 570,
+    "type" : "ice cream",
+    "ingredients" : [
+      "carmel",
+      "vanilla",
+      "more carmel"
+    ],
+    "image" : "strawberry-sprinkle.svg"
+  }
+]
+
+}
